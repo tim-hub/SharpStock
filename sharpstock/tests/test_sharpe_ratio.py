@@ -1,5 +1,5 @@
 from pandas import DataFrame
-from sharpe_ratio import calculate_sharpe_ratio
+from sharpstock.sharpe_ratio import calculate_sharpe_ratio
 from numpy.testing import assert_almost_equal
 
 test_df = DataFrame({

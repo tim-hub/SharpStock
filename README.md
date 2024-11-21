@@ -6,11 +6,11 @@ A simple Python library to calculate the Sharpe Ratio of a stock.
 ## How to use
 
 ```
-pip install sharpe-stock
+pip install sharpestock
 ```
 
 ```python
-from sharpe_stock import calculate_sharpe_ratio
+from sharpestock.sharpe_ratio import calculate_sharpe_ratio
 df = pd.read_csv('data.csv')
 calculate_sharpe_ratio(df)
 ```
